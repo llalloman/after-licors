@@ -1,0 +1,18 @@
+# Configuración de Cloudflare Worker para After Licors
+name = "after-licors"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+
+# Configuración de workers.dev
+workers_dev = true
+
+# Rutas para el dominio personalizado
+routes = [
+  { pattern = "after-licors.online/*", zone_name = "after-licors.online" },
+  { pattern = "www.after-licors.online/*", zone_name = "after-licors.online" }
+]
+
+# Variables de entorno (opcional)
+[env.production]
+name = "after-licors-production"
+workers_dev = false

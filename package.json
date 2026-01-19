@@ -1,0 +1,16 @@
+{
+  "name": "after-licors",
+  "version": "1.0.0",
+  "description": "Sitio web del bar restaurante After Licors",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["cloudflare", "worker", "restaurant", "bar"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
