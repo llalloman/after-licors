@@ -8,8 +8,8 @@ export default {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="After Licors - Bar Restaurante en Valle de los Chillos. Coctelería de autor, comida rápida, karaoke y eventos especiales.">
-    <title>AFTER LICORS | Bar Restaurante - Valle de los Chillos</title>
+    <meta name="description" content="After Licors - Donde empieza el after. Coctelería de autor, música urbana y ambiente nocturno en Quito.">
+    <title>AFTER LICORS | Coctelería & Música Urbana</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,16 +21,16 @@ export default {
         }
 
         :root {
-            /* Paleta Nightlife Premium - Tonos Elegantes */
-            --cyan-neon: #4db8e8;
-            --amber-warm: #e07856;
+            /* Paleta Nightlife Premium */
+            --cyan-neon: #00d9ff;
+            --amber-warm: #ff6b35;
             --dark-bg: #050810;
             --dark-card: #0f1320;
             --dark-secondary: #0a0e27;
-            --text-light: #f5f5f5;
-            --text-gray: #a8b5c4;
-            --neon-glow: 0 0 15px rgba(77, 184, 232, 0.4), 0 0 30px rgba(77, 184, 232, 0.2);
-            --amber-glow: 0 0 15px rgba(224, 120, 86, 0.3);
+            --text-light: #ffffff;
+            --text-gray: #b8c5d6;
+            --neon-glow: 0 0 20px rgba(0, 217, 255, 0.6), 0 0 40px rgba(0, 217, 255, 0.3);
+            --amber-glow: 0 0 20px rgba(255, 107, 53, 0.4);
             
             /* Tipografías */
             --font-heading: 'Montserrat', sans-serif;
@@ -826,8 +826,8 @@ export default {
                 <span></span>
             </div>
             <ul class="nav-links" id="navLinks">
+                <li><a href="#experiencia">Experiencia</a></li>
                 <li><a href="#cocteleria">Coctelería</a></li>
-                <li><a href="#foodtruck">Food Truck</a></li>
                 <li><a href="#eventos">Eventos</a></li>
                 <li><a href="#galeria">Galería</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -848,15 +848,53 @@ export default {
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <div class="hero-badge">� BAR RESTAURANTE • COCTELERÍA • KARAOKE • EVENTOS</div>
+            <div class="hero-badge">🎵 MÚSICA URBANA • COCTELERÍA • AMBIENTE NOCTURNO</div>
             <h1>DONDE EMPIEZA<br><span>EL AFTER</span></h1>
-            <p class="hero-subtitle">Coctelería de autor + Comida deliciosa + Entretenimiento</p>
-            <p class="hero-description">Tu bar restaurante de confianza en Valle de los Chillos. El lugar perfecto para compartir con amigos, disfrutar buenos cócteles y pasar un excelente momento.</p>
+            <p class="hero-subtitle">Coctelería de autor + Música urbana + Experiencia premium</p>
+            <p class="hero-description">El lugar donde la noche cobra vida. Ven y descubre por qué somos el punto de encuentro favorito en Quito.</p>
             <div class="hero-ctas">
                 <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20reservar%20mesa%20en%20After%20Licors" target="_blank" class="cta-primary">
                     💬 Reservar por WhatsApp
                 </a>
                 <a href="#eventos" class="cta-secondary">🎉 Ver Eventos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCIA AFTER LICORS -->
+    <section id="experiencia">
+        <div class="section-header fade-in">
+            <div class="section-badge">LA EXPERIENCIA</div>
+            <h2 class="section-title">Más que un bar, una <span>experiencia</span></h2>
+            <p class="section-description">Cada detalle está pensado para que vivas momentos inolvidables</p>
+        </div>
+
+        <div class="experience-grid">
+            <div class="experience-card fade-in">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/ambiente-azul.jpg" alt="Ambiente After Licors" loading="lazy">
+                <div class="experience-content">
+                    <div class="experience-icon">🌃</div>
+                    <h3>Ambiente Nocturno</h3>
+                    <p>Luces neón, música envolvente y una atmósfera única que te hará sentir la energía de la noche desde el primer momento.</p>
+                </div>
+            </div>
+
+            <div class="experience-card fade-in">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/evento.jpg" alt="Música After Licors" loading="lazy">
+                <div class="experience-content">
+                    <div class="experience-icon">🎵</div>
+                    <h3>Música Urbana</h3>
+                    <p>Los mejores DJs, karaoke en vivo y eventos especiales que hacen de cada noche una fiesta memorable.</p>
+                </div>
+            </div>
+
+            <div class="experience-card fade-in">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/bar-licores.jpg" alt="Servicio After Licors" loading="lazy">
+                <div class="experience-content">
+                    <div class="experience-icon">⭐</div>
+                    <h3>Servicio Premium</h3>
+                    <p>Atención personalizada, rapidez en la respuesta y un equipo comprometido con hacer de tu visita algo especial.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -888,7 +926,7 @@ export default {
             </div>
 
             <div class="cocktail-card fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/bar-licores.jpg" alt="Margaritas" class="cocktail-image" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-neon.jpg" alt="Margaritas" class="cocktail-image" loading="lazy">
                 <div class="cocktail-info">
                     <h3>Margaritas</h3>
                     <p>Tradicional, fresa o tamarindo. El equilibrio perfecto entre dulce, ácido y tequila de calidad.</p>
@@ -896,7 +934,7 @@ export default {
             </div>
 
             <div class="cocktail-card fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/ambiente-azul.jpg" alt="Piña Colada" class="cocktail-image" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-rodajas.jpg" alt="Piña Colada" class="cocktail-image" loading="lazy">
                 <div class="cocktail-info">
                     <h3>Piña Colada</h3>
                     <p>Cremosa y tropical. Ron, piña fresca y coco para transportarte a una playa paradisíaca.</p>
@@ -904,7 +942,7 @@ export default {
             </div>
 
             <div class="cocktail-card fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/evento.jpg" alt="Whisky & Gin" class="cocktail-image" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/bar-licores.jpg" alt="Whisky & Gin" class="cocktail-image" loading="lazy">
                 <div class="cocktail-info">
                     <h3>Whisky & Gin</h3>
                     <p>Amplia selección de whiskys premium y gin tonics artesanales con botánicos seleccionados.</p>
@@ -912,12 +950,18 @@ export default {
             </div>
 
             <div class="cocktail-card fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/premio.jpg" alt="Shots & Cervezas" class="cocktail-image" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/bar-licores.jpg" alt="Shots & Cervezas" class="cocktail-image" loading="lazy">
                 <div class="cocktail-info">
                     <h3>Shots & Cervezas</h3>
                     <p>Variedad de shots creativos y cervezas nacionales e importadas bien frías.</p>
                 </div>
             </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20ver%20la%20carta%20completa" target="_blank" class="cta-primary">
+                📋 Ver Carta Completa
+            </a>
         </div>
     </section>
 
@@ -933,16 +977,23 @@ export default {
             <div class="eventos-grid">
                 <div class="evento-card fade-in">
                     <div class="evento-icon">🎤</div>
-                    <h3>Karaoke</h3>
-                    <p>Canta tus canciones favoritas todos los días. Sistema profesional con amplio catálogo musical.</p>
+                    <h3>Karaoke en Vivo</h3>
+                    <p>Canta tus canciones favoritas todos los días. Sistema profesional con amplio catálogo de música urbana, rock, pop y más.</p>
                     <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20información%20sobre%20karaoke" target="_blank" class="evento-cta">Más info</a>
                 </div>
 
                 <div class="evento-card fade-in">
                     <div class="evento-icon">🎉</div>
                     <h3>Eventos Especiales</h3>
-                    <p>Organizamos fiestas privadas, cumpleaños y celebraciones con DJ, decoración y menú personalizado.</p>
+                    <p>Fiestas privadas, cumpleaños y celebraciones. Organizamos tu evento con DJ, decoración y menú personalizado.</p>
                     <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20organizar%20un%20evento" target="_blank" class="evento-cta">Cotizar evento</a>
+                </div>
+
+                <div class="evento-card fade-in">
+                    <div class="evento-icon">🎧</div>
+                    <h3>DJs & Sets</h3>
+                    <p>Los mejores DJs de la escena urbana. Reggaeton, trap, hip hop y los éxitos del momento para que bailes toda la noche.</p>
+                    <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20info%20de%20próximos%20eventos" target="_blank" class="evento-cta">Próximos eventos</a>
                 </div>
             </div>
 
@@ -952,58 +1003,6 @@ export default {
             </div>
         </section>
     </div>
-
-    <!-- FOOD TRUCK -->
-    <section id="foodtruck">
-        <div class="section-header fade-in">
-            <div class="section-badge">🍔 FOOD TRUCK</div>
-            <h2 class="section-title">Comida rápida de <span>calidad</span></h2>
-            <p class="section-description">Nuestro Food Truck del After con las mejores opciones para acompañar tu noche</p>
-        </div>
-
-        <div class="cocktails-grid">
-            <div class="cocktail-card fade-in">
-                <div class="cocktail-info" style="padding: 2.5rem;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🍔</div>
-                    <h3>Hamburguesas</h3>
-                    <p style="margin-bottom: 1rem;"><strong>Clásica:</strong> Carne, queso, lechuga, tomate, salsas</p>
-                    <p style="margin-bottom: 1rem;"><strong>BBQ:</strong> Carne, queso, tocineta, cebolla, BBQ</p>
-                    <p style="margin-bottom: 1rem;"><strong>De Pollo:</strong> Pechuga, queso, vegetales</p>
-                    <p><strong>After Licors:</strong> Doble carne, queso, tocineta, huevo</p>
-                </div>
-            </div>
-
-            <div class="cocktail-card fade-in">
-                <div class="cocktail-info" style="padding: 2.5rem;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🍟</div>
-                    <h3>Piqueos</h3>
-                    <p style="margin-bottom: 1rem;"><strong>Salchipapas:</strong> Papas fritas con salchicha y salsas</p>
-                    <p style="margin-bottom: 1rem;"><strong>Papipollos:</strong> Papas con pollo apanado</p>
-                    <p style="margin-bottom: 1rem;"><strong>Alitas:</strong> BBQ, picantes o al limón</p>
-                    <p><strong>Pinchos:</strong> Mixtos de carne, pollo o chorizo</p>
-                </div>
-            </div>
-
-            <div class="cocktail-card fade-in">
-                <div class="cocktail-info" style="padding: 2.5rem;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem;">🧀</div>
-                    <h3>Para Compartir</h3>
-                    <p style="margin-bottom: 1rem;"><strong>Nachos:</strong> Con queso, carne y guacamole</p>
-                    <p style="margin-bottom: 1rem;"><strong>Deditos de Queso:</strong> Crujientes y deliciosos</p>
-                    <p style="margin-bottom: 1rem;"><strong>Tabla de Quesos:</strong> Selección variada</p>
-                    <p><strong>Botanas:</strong> Canguil, maní, chifles</p>
-                </div>
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 3rem; background: var(--dark-card); padding: 2.5rem; border-radius: 20px; border: 2px solid rgba(77, 184, 232, 0.2);" class="fade-in">
-            <div style="font-size: 3.5rem; margin-bottom: 1rem;">🚚</div>
-            <h3 style="font-family: var(--font-heading); font-size: 2rem; color: var(--text-light); margin-bottom: 1rem;">Food Truck del After</h3>
-            <p style="color: var(--text-gray); font-size: 1.1rem; max-width: 700px; margin-left: auto; margin-right: auto;">
-Comida fresca preparada al momento en nuestro Food Truck. Perfecta para acompañar tus cócteles y disfrutar de una noche completa.
-            </p>
-        </div>
-    </section>
 
     <!-- GALERÍA -->
     <section id="galeria">
@@ -1021,31 +1020,31 @@ Comida fresca preparada al momento en nuestro Food Truck. Perfecta para acompañ
                 </div>
             </div>
             <div class="gallery-item fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-rodajas.jpg" alt="Cócteles" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-neon.jpg" alt="Cócteles" loading="lazy">
                 <div class="gallery-overlay">
                     <span class="gallery-icon">🔍</span>
                 </div>
             </div>
             <div class="gallery-item fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/logo-vintage.jpg" alt="Ambiente" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/ambiente-azul.jpg" alt="Ambiente" loading="lazy">
                 <div class="gallery-overlay">
                     <span class="gallery-icon">🔍</span>
                 </div>
             </div>
             <div class="gallery-item fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-neon.jpg" alt="Eventos" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/evento.jpg" alt="Eventos" loading="lazy">
                 <div class="gallery-overlay">
                     <span class="gallery-icon">🔍</span>
                 </div>
             </div>
             <div class="gallery-item fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/logo-hero.jpg" alt="Reconocimientos" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/premio.jpg" alt="Reconocimientos" loading="lazy">
                 <div class="gallery-overlay">
                     <span class="gallery-icon">🔍</span>
                 </div>
             </div>
             <div class="gallery-item fade-in">
-                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/ambiente-azul.jpg" alt="Bebidas" loading="lazy">
+                <img src="https://pub-2f53dac3240d4adf8c4c464c1dfbe141.r2.dev/cocteles-rodajas.jpg" alt="Bebidas" loading="lazy">
                 <div class="gallery-overlay">
                     <span class="gallery-icon">🔍</span>
                 </div>
@@ -1057,7 +1056,7 @@ Comida fresca preparada al momento en nuestro Food Truck. Perfecta para acompañ
     <section id="contacto">
         <div class="section-header fade-in">
             <div class="section-badge">UBICACIÓN</div>
-            <h2 class="section-title">Encuéntranos en <span>Valle de los Chillos</span></h2>
+            <h2 class="section-title">Encuéntranos en <span>Quito</span></h2>
             <p class="section-description">Estamos listos para atenderte</p>
         </div>
 
@@ -1069,8 +1068,7 @@ Comida fresca preparada al momento en nuestro Food Truck. Perfecta para acompañ
             <div class="contacto-info">
                 <div class="info-card fade-in">
                     <h3>📍 Ubicación</h3>
-                    <p>Zona Rosa del Valle de los Chillos<br>
-                    Valle de los Chillos, Ecuador<br>
+                    <p>Quito, Ecuador<br>
                     <a href="https://goo.gl/maps/tuenlace" target="_blank">Ver en Google Maps →</a></p>
                 </div>
 
@@ -1100,7 +1098,7 @@ Comida fresca preparada al momento en nuestro Food Truck. Perfecta para acompañ
 
         <div class="final-cta fade-in">
             <h3>¿Listo para vivir el after?</h3>
-            <p>Reserva tu mesa ahora y asegura tu lugar en la mejor experiencia nocturna de Valle de los Chillos</p>
+            <p>Reserva tu mesa ahora y asegura tu lugar en la mejor experiencia nocturna de Quito</p>
             <a href="https://wa.me/593991809928?text=Hola!%20Quiero%20reservar%20mesa%20en%20After%20Licors%20para%20[FECHA]%20[HORA]%20[NÚMERO%20DE%20PERSONAS]" target="_blank" class="cta-primary" style="background: white; color: var(--dark-bg);">
                 💬 Reservar Mi Mesa Ahora
             </a>

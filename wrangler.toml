@@ -12,6 +12,11 @@ routes = [
   { pattern = "www.after-licors.online/*", zone_name = "after-licors.online" }
 ]
 
+# Vinculación con R2 bucket
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "after-licors-images"
+
 # Variables de entorno (opcional)
 [env.production]
 name = "after-licors-production"
